@@ -1,0 +1,18 @@
+superficie_Sinaloa_km2=57365
+localizacion="Noroeste"
+clima=" Calido,subhumedo,seco,y semiseco"
+temperatura_media_anual=25.45
+precipitacion_anual_mm=790.1
+poblacion_mujeres=1532128
+poblacion_hombres=1494815
+porcentaje_habitantes_culiacan=33.15
+porcentaje_habitantes_mazatlan=16.57
+
+poblacion_total=poblacion_hombres+poblacion_hombres
+porcentaje_habitantes_total=porcentaje_habitantes_culiacan+porcentaje_habitantes_mazatlan
+
+temperatura_media_anual_y_tipos_de_clima=str(temperatura_media_anual)+clima
+
+print(poblacion_total)
+print(porcentaje_habitantes_total)
+print(temperatura_media_anual_y_tipos_de_clima)
